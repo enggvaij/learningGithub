@@ -53,17 +53,49 @@ To connect with your working directory to the github account website remotely,co
 $ git clone https://github.com/[your-github-account-name]/[your-repository-name].git
 
 ```
+#### Check list of files, folders present in to the github repository
+List all files, folders present in to the github repository
+```bash
+$ ls
+```
 
 
+#### Go to Repository directory
+
+```bash
+$ cd [your-repository-name]
+
+```
+
+#### create new py file to build python sample codefile using any editor like vs code, pycharm
+Save the file into the Repository directory
 
 
+#### Add file to staging 
+```bash
+$ git add samplefile.py
 
+```
 
+#### Commit file to production stage 
+```bash
+$ git commit -m "New file sample file commited inntialy"
 
+```
+#### push finally to github reposiotory
+```bash
+$ git push
+```
 
+#### check status 
+```bash
+$ git status
+```
 
-
-
+#### check log 
+```bash
+$ git log
+```
 
 Install dependencies
 
