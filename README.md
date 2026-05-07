@@ -8,16 +8,29 @@ In this example we learn step by step how to use Git and Github actions.
 ## Table of contents
 * [General info](#general-info)
 * [Tech stack](#tech-stack)
+* [Prerequisite](#prerequisite)
 * [Setup](#setup)
 
 ## General info
-This project is simple Lorem ipsum dolor generator.
-	
-## Technologies
-Project is created with:
-* Lorem version: 12.3
-* Ipsum version: 2.33
-* Ament library version: 999
+This project is simple project to learn basics about Git and Git Hub actions
+
+
+## Tech Stack
+
+**Client:** python
+
+**Server:** local machine, command promt, git bash
+
+**Website Account** https://github.com/
+
+## Prerequisite
+1. Login into your computer.
+2. Go to [Git](https://github.com/)
+3. Sign in or create the new account onto the link.
+4. Install git on your computer using website https://git-scm.com/install/
+5. Launch the git bash promt
+6. using cd [working directry name] command choose the directory
+   
 	
 ## Setup
 To run this project, install it locally using npm:
@@ -29,13 +42,6 @@ $ npm start
 ```
 
 
-## Tech Stack
-
-**Client:** python
-
-**Server:** local machine, command promt, git bash
-
-**Website Account** https://github.com/
 
 
 ## Run Locally
