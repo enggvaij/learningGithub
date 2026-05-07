@@ -27,12 +27,12 @@ This project is simple project to learn basics about Git and Git Hub actions
 1. Login into your computer.
 2. Go to [Git](https://github.com/)
 3. Sign in or create the new account onto the link.
-4. Install git on your computer using website https://git-scm.com/install/
-5. Launch the git bash promt
-   ```
+4. create the respositatiory in to your account . 
+5. Install git on your computer using website https://git-scm.com/install/
+6. Launch the git bash promt
+   
 $ 
 
-```
 7. using cd [working directry name] command choose the directory
    To run this , enter below
 ```
@@ -42,12 +42,11 @@ $ cd d:code
    
 	
 ## Setup
-To run this project, install it locally using npm:
+To connect with your working directory to the github account website remotely,copy and run the below command on your git bash promt . Make the required changes as per your account relative.
 
 ```
-$ cd ../lorem
-$ npm install
-$ npm start
+$ git clone https://github.com/[your-github-account-name]/[your-repository-name].git
+
 ```
 
 
