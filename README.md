@@ -71,18 +71,18 @@ $ cd [your-repository-name]
 Save the file into the Repository directory
 
 
-#### Add file to staging 
+#### Add file to staging area
 ```bash
 $ git add samplefile.py
 
 ```
 
-#### Commit file to production stage 
+#### Commit file to version database on local computer 
 ```bash
 $ git commit -m "New file sample file commited inntialy"
 
 ```
-#### push finally to github reposiotory
+#### push finally to github remote repository website
 ```bash
 $ git push
 ```
