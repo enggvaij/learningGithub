@@ -1,27 +1,67 @@
-flowchart LR
-    A[💻 Developer<br>Write Code] --> B[🔧 Git<br>Version Control]
 
-    B -->|Commit / Push| C[🌐 GitHub Repository]
+<a name="top"></a>
+# Git - GitHub Actions Using Python code Example
+This article is for beginners who are willing to start to use Git and Github actions on their projects.
+In this example we learn step by step how to use Git and Github actions.
 
-    C -->|Triggers Workflow| D[⚙️ GitHub Actions<br>CI/CD Pipeline]
 
-    subgraph CI[Continuous Integration]
-        D1[🔍 Lint & Code Quality Checks]
-        D2[🧪 Run Unit & Integration Tests]
-        D3[📦 Build Artifacts]
-    end
+## Table of contents
+* [General info](#general-info)
+* [Tech stack](#tech-stack)
+* [Setup](#setup)
 
-    D --> CI
+## General info
+This project is simple Lorem ipsum dolor generator.
+	
+## Technologies
+Project is created with:
+* Lorem version: 12.3
+* Ipsum version: 2.33
+* Ament library version: 999
+	
+## Setup
+To run this project, install it locally using npm:
 
-    subgraph CD[Continuous Deployment]
-        E1[🚀 Deploy to Dev Environment]
-        E2[🔄 Automated Tests / QA]
-        E3[⬆️ Promote to Staging]
-        E4[🌐 Deploy to Production]
-    end
+```
+$ cd ../lorem
+$ npm install
+$ npm start
+```
 
-    CI --> CD
 
-    E4 --> F[📊 Monitoring & Logging<br>Observability Tools]
+## Tech Stack
 
-    F -->|Feedback Loop| A
+**Client:** python
+
+**Server:** local machine, command promt, git bash
+
+**Website Account** https://github.com/
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://link-to-project
+```
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run start
+```
+
+[Back to top](#top)
