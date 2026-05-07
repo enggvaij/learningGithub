@@ -10,9 +10,19 @@ In this example we learn step by step how to use Git and Github actions.
 * [Tech stack](#tech-stack)
 * [Prerequisite](#prerequisite)
 * [Setup](#setup)
+* [Final Statement](#final-statement)
 
 ## General info
 This project is simple project to learn basics about Git and Git Hub actions
+
+In this git tutorial we will learn how to commit a code change locally using git commit and how to upload it to remote using git push. Here is the list of topics we are covering in this git tutorial,
+1) how to create new github repository
+2) push code to this repository using git push command
+3) go over these commands in detail,
+git add
+git commit
+git push
+git difftool
 
 
 ## Tech Stack
@@ -50,7 +60,7 @@ $
 To connect with your working directory to the github account website remotely,copy and run the below command on your git bash promt . Make the required changes as per your account relative.
 
 ```bash
-$ git clone https://github.com/[your-github-account-name]/[your-repository-name].git
+$ git clone https://github.com/enggvaij[your-github-account-name]/learningGitHub[your-repository-name].git
 
 ```
 #### Check list of files, folders present in to the github repository
@@ -63,8 +73,7 @@ $ ls
 #### Go to Repository directory
 
 ```bash
-$ cd [your-repository-name]
-
+$ cd learninggithub
 ```
 
 #### create new py file to build python sample codefile using any editor like vs code, pycharm
@@ -73,7 +82,7 @@ Save the file into the Repository directory
 
 #### Add file to staging area
 ```bash
-$ git add samplefile.py
+$ git add gittest.py
 
 ```
 
@@ -96,17 +105,10 @@ $ git status
 ```bash
 $ git log
 ```
+## Final Statement
 
-Install dependencies
-
-```bash
-  npm install
-```
-
-Start the server
-
-```bash
-  npm run start
-```
+I have created the git hub account on github website.
+I have installed the git for local machine. 
+Created the sample python simplae code file and add commit push to the remote cloud sotoreage on github website.
 
 [Back to top](#top)
