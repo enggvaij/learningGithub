@@ -29,7 +29,16 @@ This project is simple project to learn basics about Git and Git Hub actions
 3. Sign in or create the new account onto the link.
 4. Install git on your computer using website https://git-scm.com/install/
 5. Launch the git bash promt
-6. using cd [working directry name] command choose the directory
+   ```
+$ 
+
+```
+7. using cd [working directry name] command choose the directory
+   To run this , enter below
+```
+$ cd d:code
+
+```
    
 	
 ## Setup
