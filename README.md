@@ -33,18 +33,23 @@ This project is simple project to learn basics about Git and Git Hub actions
    
 $ 
 
-7. using cd [working directry name] command choose the directory
-   To run this , enter below
-```
-$ cd d:code
+7. using cd [working directry name] command , Go to the project directory
 
+```bash
+  cd [d:code]my-project
 ```
+
    
 	
 ## Setup
+
+### Run Locally
+
+
+#### Clone the project
 To connect with your working directory to the github account website remotely,copy and run the below command on your git bash promt . Make the required changes as per your account relative.
 
-```
+```bash
 $ git clone https://github.com/[your-github-account-name]/[your-repository-name].git
 
 ```
@@ -52,19 +57,13 @@ $ git clone https://github.com/[your-github-account-name]/[your-repository-name]
 
 
 
-## Run Locally
 
-Clone the project
 
-```bash
-  git clone https://link-to-project
-```
 
-Go to the project directory
 
-```bash
-  cd my-project
-```
+
+
+
 
 Install dependencies
 
