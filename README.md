@@ -55,57 +55,57 @@ $
 
    
 	
-## Setup
+# Setup
 
-### Run Locally
+# Run Locally
 
 
-#### Clone the project
+## Clone the project
 To connect with your working directory to the github account website remotely,copy and run the below command on your git bash promt . Make the required changes as per your account relative.
 
 ```bash
 $ git clone https://github.com/enggvaij[your-github-account-name]/learningGitHub[your-repository-name].git
 
 ```
-#### Check list of files, folders present in to the github repository
+## Check list of files, folders present in to the github repository
 List all files, folders present in to the github repository
 ```bash
 $ ls
 ```
 
 
-#### Go to Repository directory
+## Go to Repository directory
 
 ```bash
 $ cd learninggithub
 ```
 
-#### create new py file to build python sample codefile using any editor like vs code, pycharm
+## create new py file to build python sample codefile using any editor like vs code, pycharm
 Save the file into the Repository directory
 
 
-#### Add file to staging area
+## Add file to staging area
 ```bash
 $ git add gittest.py
 
 ```
 
-#### Commit file to version database on local computer 
+## Commit file to version database on local computer 
 ```bash
 $ git commit -m "New file sample file commited inntialy"
 
 ```
-#### push finally to github remote repository website
+## push finally to github remote repository website
 ```bash
 $ git push
 ```
 
-#### check status 
+## check status 
 ```bash
 $ git status
 ```
 
-#### check log 
+## check log 
 ```bash
 $ git log
 ```
