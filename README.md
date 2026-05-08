@@ -10,6 +10,7 @@ In this example we learn step by step how to use Git and Github actions.
 * [Tech stack](#tech-stack)
 * [Prerequisite](#prerequisite)
 * [Setup](#setup)
+* [Git Branch](#gi-branch)
 * [Final Statement](#final-statement)
 
 ## General info
@@ -105,6 +106,47 @@ $ git status
 ```bash
 $ git log
 ```
+
+## Git Branch
+### List available branch
+```bash
+$ git branch
+```
+
+### List create new branch
+```bash
+$ git branch new-branch-name
+```
+
+### Switch to new branch
+```bash
+$ git checkout new-branch-name
+```
+
+OR 
+
+```bash
+$ git switch new-branch-name
+```
+
+### Create and Switch to new branch
+```bash
+$ git checkout -b new-branch-name
+```
+
+
+### Switch to main branch
+```bash
+$ git checkout main
+```
+
+OR 
+
+```bash
+$ git switch main
+```
+
+
 ## Final Statement
 
 I have created the git hub account on github website.
