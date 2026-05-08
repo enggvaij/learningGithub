@@ -145,7 +145,61 @@ OR
 ```bash
 $ git switch main
 ```
+## Make changes / edit the file in new branch
 
+### Step 1:  
+
+```bash
+$ git checkout new-branch-name
+```
+
+OR 
+
+```bash
+$ git switch new-branch-name
+```
+
+### Step 2:  
+ Edit the code changes / other changes to file in new-branch-name
+
+
+ ### Step 3:  
+ Add file to staging area
+ 
+```bash
+$ git add gittest.py
+```
+ ### Step 4:  
+Commit file to database 
+ 
+```bash
+$ git commit -m "chnages made 1"
+```
+
+ ### Step 5:  
+Merge changes to main branch
+
+Swtich to main branch
+```bash
+$ git checkout main
+```
+ 
+```bash
+$ git merge new-branch-name
+```
+ ### Step 6:  
+Push Main branch files to Git hub remote space cloud
+
+```bash
+$ git push
+```
+
+ ### Step 7:  
+Push the created new branch in my case new branch name is thirsty to github remote cloud
+
+```bash
+$ git push --set-upstream origin thirsty[new-branch-name]
+```
 
 ## Final Statement
 
