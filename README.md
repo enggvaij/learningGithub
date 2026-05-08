@@ -197,7 +197,7 @@ $ git push
 ```
 
  ### Push Branch  
-####Push the created new branch in my case new branch name is thirsty to github remote cloud
+#### Push the created new branch in my case new branch name is thirsty to github remote cloud
 switch to main branch 
 
 ```bash
