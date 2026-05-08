@@ -11,7 +11,8 @@ In this example we learn step by step how to use Git and Github actions.
 * [Prerequisite](#prerequisite)
 * [Setup](#setup)
 * [Git Branch](#gi-branch)
-*  [Delete the branch](#delete-the-branch)  
+* [Push Branch](#push-branch)
+* [Delete the branch](#delete-the-branch)  
 * [Final Statement](#final-statement)
 
 ## General info
@@ -189,14 +190,20 @@ $ git checkout main
 $ git merge new-branch-name
 ```
  ### Step 6:  
-Push Main branch files to Git hub remote space cloud
+Push new branch files to Git hub remote space cloud
 
 ```bash
 $ git push
 ```
 
- ### Step 7:  
-Push the created new branch in my case new branch name is thirsty to github remote cloud
+ ### Push Branch  
+####Push the created new branch in my case new branch name is thirsty to github remote cloud
+switch to main branch 
+
+```bash
+$ git checkout main
+```
+####then hit push command for new branch created
 
 ```bash
 $ git push --set-upstream origin thirsty[new-branch-name]
