@@ -12,7 +12,8 @@ In this example we learn step by step how to use Git and Github actions.
 * [Setup](#setup)
 * [Git Branch](#gi-branch)
 * [Push Branch](#push-branch)
-* [Delete the branch](#delete-the-branch)  
+* [Delete the branch](#delete-the-branch)
+* [git difftool](#git-difftool)
 * [Final Statement](#final-statement)
 
 ## General info
@@ -213,6 +214,28 @@ $ git push --set-upstream origin thirsty[new-branch-name]
 
 ```bash
 $ git branch -d dummy[branch name]
+```
+## Git Difftool
+
+### 1. Show the difference between uncommited changes and HEAD
+
+```bash
+$ git difftool
+```
+### 2. Show the difference between local code changes and upstream (e.g. github)
+
+```bash
+$ git difftool origin/master
+```
+### 3. Show the difference using tool xyz (-t) means tool 
+
+```bash
+$ git difftool -t xyz
+```
+### 4. Launch the merge tool to merge conflict changes
+
+```bash
+$ git mergetool
 ```
 
 ## Final Statement
