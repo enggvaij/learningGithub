@@ -11,6 +11,7 @@ In this example we learn step by step how to use Git and Github actions.
 * [Prerequisite](#prerequisite)
 * [Setup](#setup)
 * [Git Branch](#gi-branch)
+*  [Delete the branch](#delete-the-branch)  
 * [Final Statement](#final-statement)
 
 ## General info
@@ -199,6 +200,12 @@ Push the created new branch in my case new branch name is thirsty to github remo
 
 ```bash
 $ git push --set-upstream origin thirsty[new-branch-name]
+```
+
+ ### Delete the branch  
+
+```bash
+$ git branch -d dummy[branch name]
 ```
 
 ## Final Statement
